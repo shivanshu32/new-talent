@@ -8,7 +8,7 @@ export default function IndexPage(props) {
             <div className="mx-auto container dark:bg-gray-900 xl:px-0 px-4 py-16">
                 <div className="w-auto p-2">
                     <div className="w-full grid place-items-center h-48 relative">
-                        <img src={props.imgs} className="w-full h-full" />
+                        <img src={props.imgs} className="w-full h-full" alt="cover" />
                         {/* <button class="absolute inset-0  bg-blue-500 text-white m-16 rounded hover:bg-blue-800 "> */}
                         <div class="absolute">
                         <svg  width="50px" height="50px" viewBox="0 0 20 20" version="1.1" >
