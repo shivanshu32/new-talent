@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 export default function IndexPage() {
     const [show, setShow] = useState(null);
-    const [profile, setProfile] = useState(false);
+    // const [profile, setProfile] = useState(false);
     const [product, setProduct] = useState(false);
-    const [deliverables, setDeliverables] = useState(false);
+    // const [deliverables, setDeliverables] = useState(false);
     return (
         <>
             <div className="bg-gray-200 h-full w-full">
@@ -98,7 +98,7 @@ export default function IndexPage() {
 
                             <div className="flex w-full sm:w-auto items-center sm:items-stretch justify-end sm:justify-start">
                                 <div className="flex items-center">
-                                  <img  className="h-16" src="/newtalentlogo.png" />
+                                  <img  className="h-16" src="/newtalentlogo.png" alt="logo" />
                                     {/* <svg aria-label="Home" id="logo" enableBackground="new 0 0 300 300" height={44} viewBox="0 0 300 300" width={43} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <g>
                                             <path
@@ -222,7 +222,7 @@ export default function IndexPage() {
                                             </div>
                                         </div>
                                         <ul className="f-m-m">
-                                            <a className="cursor-pointer">
+                                            <a href="#" className="cursor-pointer">
                                                 <li className="text-gray-800 pt-10">
                                                     <div className="flex items-center">
                                                         <div className="w-6 h-6 md:w-8 md:h-8 text-indigo-700">
@@ -238,7 +238,7 @@ export default function IndexPage() {
                                                     </div>
                                                 </li>
                                             </a>
-                                            <a className="cursor-pointer">
+                                            <a href="#" className="cursor-pointer">
                                                 <li className="text-gray-800 pt-8">
                                                     <div className="flex items-center justify-between">
                                                         <div className="flex items-center">
@@ -253,7 +253,7 @@ export default function IndexPage() {
                                                     </div>
                                                 </li>
                                             </a>
-                                            <a className="cursor-pointer">
+                                            <a href="#" className="cursor-pointer">
                                                 <li className="text-gray-800 pt-8">
                                                     <div className="flex items-center">
                                                         <div className="w-6 h-6 md:w-8 md:h-8 text-gray-800">

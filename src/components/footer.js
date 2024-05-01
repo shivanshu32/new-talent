@@ -6,7 +6,7 @@ const Footer1 = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 md:gap-8 gap-4">
                 <div className="flex flex-col flex-shrink-0">
                     <div>
-                    <img  className="h-16" src="/newtalentlogo.png" />
+                    <img  className="h-16" src="/newtalentlogo.png" alt="logo "/>
                     </div>
                     <p className="text-sm leading-none text-white mt-4">G-28/1A, Main Market, Block J <br /> <br /> Rajouri Garden, New Delhi, Delhi, 110027</p>
                     

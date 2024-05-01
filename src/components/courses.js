@@ -13,7 +13,7 @@ function Index() {
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                 <div className="shadow-[rgba(0,0,15,0.5)_10px_0px_0px_0px] ml-2 z-10 bg-gray-100 rounded-t-full border-gray-300 rounded-lg  " >
                     <div className="w-full h-full mt-4 flex items-center justify-center dark:bg-gray-900">
-                    <img src="/Pageant.png" alt="Background Image" class="object-cover mt-10 object-center" />
+                    <img src="/Pageant.png" alt="Background " class="object-cover mt-10 object-center" />
                 
                 </div>
 
@@ -22,7 +22,7 @@ function Index() {
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                 <div className="shadow-[rgba(0,0,15,0.5)_10px_0px_0px_0px] ml-2 z-10 bg-gray-100 rounded-t-full border-gray-300   " >
                 <div className="w-full h-full mt-4 flex items-center justify-center dark:bg-gray-900">
-                <img src="/modelneeraj.png" alt="Background Image" class="object-cover mt-10 object-center" />
+                <img src="/modelneeraj.png" alt="Background " class="object-cover mt-10 object-center" />
                 
                 </div>
                 </div>
@@ -30,7 +30,7 @@ function Index() {
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                 <div className="shadow-[rgba(0,0,15,0.5)_10px_0px_0px_0px] ml-2 z-10  bg-gray-100 rounded-t-full border-gray-300  " > 
                 <div className="w-full h-full flex items-center justify-center dark:bg-gray-900">
-                <img src="/Portfolio.png" alt="Background Image" class="object-cover mt-10 object-center" />
+                <img src="/Portfolio.png" alt="Background " class="object-cover mt-10 object-center" />
                 
                 </div>
                 </div>
