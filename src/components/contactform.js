@@ -44,7 +44,7 @@ function MyApp() {
                     <div className="md:flex items-center mt-8">
                         <div className="md:w-72 flex flex-col">
                             <label className="text-base font-semibold leading-none text-gray-800">Mobile</label>
-                            <input tabIndex={0} role="input"  type="name" className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100 " placeholder="Please input company name" />
+                            <input tabIndex={0}   type="name" className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100 " placeholder="Please input company name" />
                         </div>
                         <div className="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
                             <label className="text-base font-semibold leading-none text-gray-800">Subject</label>

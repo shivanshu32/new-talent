@@ -8,7 +8,7 @@ function Index() {
                         {/* Remove class [ h-24 ] when adding a card block */}
                         {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                         <div className="rounded  " >
-                        <img src='/model4.png' className="w-full h-full" alt="model image" />
+                        <img src='/model4.png' className="w-full h-full" alt="model" />
                         </div>
                     </div>
                     <div className="md:w-3/5 w-full pb-6 ">
