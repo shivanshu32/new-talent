@@ -8,7 +8,7 @@ function Index() {
                         {/* Remove class [ h-24 ] when adding a card block */}
                         {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                         <div className="rounded  " >
-                        <img src='/model4.png' className="w-full h-full" />
+                        <img src='/model4.png' className="w-full h-full" alt="model image" />
                         </div>
                     </div>
                     <div className="md:w-3/5 w-full pb-6 ">
@@ -16,7 +16,7 @@ function Index() {
                         {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                         <div className="rounded mt-16 p-8" >
                         
-<h1 role="heading" className="lg:text-4xl text-3xl font-bold  leading-tight text-gray-800">
+<h1  className="lg:text-4xl text-3xl font-bold  leading-tight text-gray-800">
                             WHO CAN BENEFIT FROM OUR COURSES
                         </h1>
                         
@@ -38,7 +38,7 @@ function Index() {
                     </div>
                     <div className="md:w-1/5 w-full">
                     <div className="rounded relative " >
-                        <img src='/model1.png' className="w-full h-full left-0" />
+                        <img src='/model1.png' className="w-full h-full left-0" alt="model" />
                         </div>
                     </div>
                 </div>
