@@ -193,7 +193,7 @@ export default function IndexPage() {
                         </div>
                     </div>
                     {/*Mobile responsive sidebar*/}
-                    <div className={show ? "w-full xl:hidden h-full absolute z-40  transform  translate-x-0 " : "   w-full xl:hidden h-full absolute z-40  transform -translate-x-full"}>
+                    {/* <div className={show ? "w-full xl:hidden h-full absolute z-40  transform  translate-x-0 " : "   w-full xl:hidden h-full absolute z-40  transform -translate-x-full"}>
                         <div className="bg-gray-800 opacity-50 w-full h-full" onClick={() => setShow(!show)} />
                         <div className="w-64 z-40 fixed overflow-y-auto z-40 top-0 bg-white shadow h-full flex-col justify-between xl:hidden pb-4 transition duration-150 ease-in-out">
                             <div className="px-6 h-full">
@@ -321,15 +321,15 @@ export default function IndexPage() {
                                                                 <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
                                                             </svg>
                                                         </div>
-                                                    </li>
-                                                </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                        </div> */}
                 </nav>
                 {/* Code block ends */}
             </div>
