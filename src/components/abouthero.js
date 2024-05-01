@@ -3,13 +3,13 @@ export default function Abouthero ()  {
         <>
        <div class="relative  from-gray-100 to-gray-500 h-[70vh] text-white overflow-hidden">
   <div class="absolute inset-0">
-    <img src="/pic16.png" alt="Background Image" class="object-cover ml-16 object-center" />
+    <img src="/pic16.png" alt="Background" class="object-cover ml-16 object-center" />
     <div class="absolute inset-0 bg-black opacity-20"></div>
   </div>
   
 
 <div class="absolute top-1/4 mr-8 right-0 w-1/2">
-<h1 role="heading" className="lg:text-4xl text-3xl font-bold  leading-tight text-gray-800">
+<h1  className="lg:text-4xl text-3xl font-bold  leading-tight text-gray-800">
                             New Talent Models Grooming School
                         </h1>
                         <p role="contentinfo" className="mt-4 pr-8 text-base leading-6 text-gray-600">

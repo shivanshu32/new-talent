@@ -4,7 +4,7 @@ function Index() {
         <>
        
                         <div className="w-full flex justify-center mt-32">
-                        <h1 role="heading" className="lg:text-4xl text-3xl font-bold  leading-tight text-gray-800">
+                        <h1  className="lg:text-4xl text-3xl font-bold  leading-tight text-gray-800">
                         WHAT WILL YOU LEARN ?
                         </h1>
                         </div>
@@ -50,7 +50,7 @@ function Index() {
                         {/* Remove class [ h-24 ] when adding a card block */}
                         {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                         <div className="rounded  " >
-                        <img src='/modelneeraj.png' className="w-full h-full" />
+                        <img src='/modelneeraj.png' className="w-full h-full" alt="model" />
                         </div>
                     </div>
                     <div className="md:w-2/5 w-full flex">
