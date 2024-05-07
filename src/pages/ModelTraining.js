@@ -5,13 +5,23 @@ import Header from '../components/header'
 // import Course from '../components/courses'
 // import Modelcarousel from '../components/carousel'
 import Footer1 from '../components/footer'
+import ModelTrainingHero from '../components/mthero'
+import TheMentor from '../components/thementor'
+import Testimonials from '../components/testimonialcarousel'
+import ModelTrainingPrograms from '../components/mtprograms'
+import ModelTrainingContact from '../components/mtcontact'
 
 export default function ModelTraining() {
   return (
     <>
      <Header />
+     <ModelTrainingHero />
+     <ModelTrainingContact />
+     <ModelTrainingPrograms />
+     <TheMentor />
+     <Testimonials />
     
-     <h1>Model Training</h1>
+    
       <Footer1/>
     </>
   )

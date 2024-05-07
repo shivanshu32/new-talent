@@ -17,7 +17,7 @@ function Index() {
                         {/* Remove class [ h-24 ] when adding a card block */}
                         {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                         <div className="rounded  " >
-                        <img src="/hero2.png" alt="Background" class="object-cover object-left" />
+                        <img src="/tarunrajput.png" alt="Background" class="object-cover object-left" />
                         </div>
                     </div>
                 </div>
