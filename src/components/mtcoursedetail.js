@@ -44,7 +44,7 @@ function Index() {
 </div>
 
 <div class="aspect-w-16 aspect-h-9">
-  <iframe src="https://www.youtube.com/embed/JQHlMn9_khM?si=hUXuee36mNW65LUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe title="thisframe" src="https://www.youtube.com/embed/JQHlMn9_khM?si=hUXuee36mNW65LUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 {/* insert here */}

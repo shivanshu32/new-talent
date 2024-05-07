@@ -21,7 +21,7 @@ export default function Index() {
                                             {/* <div className="flex justify-start w-full">
                                                 <p className="text-base leading-4 text-gray-800 mb-2 text-left">Her Closet</p>
                                             </div> */}
-                                            <img src="/pic2.jpg" className="w-full h-full object-center object-cover sm:h-full" />
+                                            <img src="/pic2.jpg" className="w-full h-full object-center object-cover sm:h-full" alt="model" />
                                         </div>
                                     </div>
                                 </Slide>
@@ -31,7 +31,7 @@ export default function Index() {
                                             {/* <div className="w-full flex justify-start">
                                                 <p className="text-base leading-4 text-gray-800 mb-2 text-left">Men’s Classic</p>
                                             </div> */}
-                                            <img src="/pic1.jpg" className="w-full h-full object-center object-cover sm:h-full" />
+                                            <img src="/pic1.jpg" className="w-full h-full object-center object-cover sm:h-full" alt="model" />
                                         </div>
                                     </div>
                                 </Slide>
@@ -41,7 +41,7 @@ export default function Index() {
                                             {/* <div className="w-full flex justify-start">
                                                 <p className="text-base leading-4 text-gray-800 mb-2 text-left">Outdoor Fashion</p>
                                             </div> */}
-                                            <img src="/pic3.jpg" className="w-full h-full object-center object-cover sm:h-full" />
+                                            <img src="/pic3.jpg" className="w-full h-full object-center object-cover sm:h-full" alt="model" />
                                         </div>
                                     </div>
                                 </Slide>
