@@ -24,7 +24,7 @@ function Index() {
 <h1 className="text-3xl font-bold">Course Details</h1>
 <ul className="list-disc mt-4 ml-8">
   <li className="text-xl">5 Day Intensive Offline Training - Theory and Practicals</li>
-  <li className="text-xl">Conducted by Lakshmi Rana and her team of Experts</li>
+  <li className="text-xl">Conducted by Tarun Rajput and her team of Experts</li>
   <li className="text-xl">Inclusive platform for budding and experienced models</li>
   <li className="text-xl">Portfolio Shoot by Industry Professionals</li>
  
