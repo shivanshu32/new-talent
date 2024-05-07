@@ -10,12 +10,14 @@ import TheMentor from '../components/thementor'
 import Testimonials from '../components/testimonialcarousel'
 import ModelTrainingPrograms from '../components/mtprograms'
 import ModelTrainingContact from '../components/mtcontact'
+import ModelCourseDetail from '../components/mtcoursedetail'
 
 export default function ModelTraining() {
   return (
     <>
      <Header />
      <ModelTrainingHero />
+     <ModelCourseDetail />
      <ModelTrainingContact />
      <ModelTrainingPrograms />
      <TheMentor />

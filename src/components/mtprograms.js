@@ -3,7 +3,7 @@ function Index() {
     return (
         <div className="flex flex-wrap sm:flex-no-wrap items-center justify-between w-full bg-gray-100 h-auto">
             
-            <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8">
+            <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 mt-16 pt-6 gap-8">
               
                 <div className="p-2 items-center text-center justify-between rounded border-black bg-white  dark:border-gray-700 border-solid border-2 h-auto" > 
                 <h1 className="text-xl font-bold">Business of Modeling and how to pave your way into the Industry </h1>
@@ -62,7 +62,7 @@ function Index() {
             
               </div>
 
-              <div className="p-2 mr-32 ml-32 items-center text-center justify-between rounded border-black bg-black text-white  dark:border-gray-700 border-solid border-2 h-auto" > 
+              <div className="p-2 mr-32 ml-32 mb-16 items-center text-center justify-between rounded border-black bg-black text-white  dark:border-gray-700 border-solid border-2 h-auto" > 
               <h1 className="text-xl font-bold">Book Your Slot Now</h1>
               
               
