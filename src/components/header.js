@@ -18,13 +18,13 @@ export default function IndexPage() {
                                         <ul className="p-2 border-r bg-white absolute rounded left-0 right-0 shadow mt-8 md:mt-8 hidden">
                                             <li className="flex xl:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
                                                 <div className="flex items-center">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-grid" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                    {/* <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-grid" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                         <path stroke="none" d="M0 0h24v24H0z" />
                                                         <rect x={4} y={4} width={6} height={6} rx={1} />
                                                         <rect x={14} y={4} width={6} height={6} rx={1} />
                                                         <rect x={4} y={14} width={6} height={6} rx={1} />
                                                         <rect x={14} y={14} width={6} height={6} rx={1} />
-                                                    </svg>
+                                                    </svg> */}
                                                     <span className="ml-2 font-bold">Dashboards</span>
                                                 </div>
                                             </li>
@@ -174,26 +174,10 @@ export default function IndexPage() {
                                 />
                             </svg>
                         </div>
-                        <div className="flex items-center">
-                            <div className="relative mr-6 ">
-                                <button className="focus:outline-none bg-gray-100 border-gray-300 border transition duration-150 ease-in-out hover:bg-gray-300 rounded text-gray-600 px-5 py-2 text-xs">Manage1</button>
-                            </div>
-                            <div id="menu" className="text-gray-800" onClick={() => setShow(!show)}>
-                                {show ? (
-                                    ""
-                                ) : (
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-menu-2" width={24} height={24} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <line x1={4} y1={6} x2={20} y2={6} />
-                                        <line x1={4} y1={12} x2={20} y2={12} />
-                                        <line x1={4} y1={18} x2={20} y2={18} />
-                                    </svg>
-                                )}
-                            </div>
-                        </div>
+                       
                     </div>
                     {/*Mobile responsive sidebar*/}
-                    {/* <div className={show ? "w-full xl:hidden h-full absolute z-40  transform  translate-x-0 " : "   w-full xl:hidden h-full absolute z-40  transform -translate-x-full"}>
+                    <div className={show ? "w-full xl:hidden h-full absolute z-40  transform  translate-x-0 " : "   w-full xl:hidden h-full absolute z-40  transform -translate-x-full"}>
                         <div className="bg-gray-800 opacity-50 w-full h-full" onClick={() => setShow(!show)} />
                         <div className="w-64 z-40 fixed overflow-y-auto z-40 top-0 bg-white shadow h-full flex-col justify-between xl:hidden pb-4 transition duration-150 ease-in-out">
                             <div className="px-6 h-full">
@@ -329,7 +313,7 @@ export default function IndexPage() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div> */}
+                                        </div>
                 </nav>
                 {/* Code block ends */}
             </div>
