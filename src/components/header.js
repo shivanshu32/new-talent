@@ -18,13 +18,13 @@ export default function IndexPage() {
                                         <ul className="p-2 border-r bg-white absolute rounded left-0 right-0 shadow mt-8 md:mt-8 hidden">
                                             <li className="flex xl:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
                                                 <div className="flex items-center">
-                                                    {/* <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-grid" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-grid" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                         <path stroke="none" d="M0 0h24v24H0z" />
                                                         <rect x={4} y={4} width={6} height={6} rx={1} />
                                                         <rect x={14} y={4} width={6} height={6} rx={1} />
                                                         <rect x={4} y={14} width={6} height={6} rx={1} />
                                                         <rect x={14} y={14} width={6} height={6} rx={1} />
-                                                    </svg> */}
+                                                    </svg>
                                                     <span className="ml-2 font-bold">Dashboards</span>
                                                 </div>
                                             </li>
