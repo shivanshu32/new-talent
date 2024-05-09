@@ -206,7 +206,7 @@ export default function IndexPage() {
                                             </div>
                                         </div>
                                         <ul className="f-m-m">
-                                            <a href="#" className="cursor-pointer">
+                                            <button className="cursor-pointer">
                                                 <li className="text-gray-800 pt-10">
                                                     <div className="flex items-center">
                                                         <div className="w-6 h-6 md:w-8 md:h-8 text-indigo-700">
@@ -221,8 +221,8 @@ export default function IndexPage() {
                                                         <p className="text-indigo-700 xl:text-base text-base ml-3">Dashboard</p>
                                                     </div>
                                                 </li>
-                                            </a>
-                                            <a href="#" className="cursor-pointer">
+                                            </button>
+                                            <button href="#" className="cursor-pointer">
                                                 <li className="text-gray-800 pt-8">
                                                     <div className="flex items-center justify-between">
                                                         <div className="flex items-center">
@@ -236,8 +236,8 @@ export default function IndexPage() {
                                                         </div>
                                                     </div>
                                                 </li>
-                                            </a>
-                                            <a href="#" className="cursor-pointer">
+                                            </button>
+                                            <button href="#" className="cursor-pointer">
                                                 <li className="text-gray-800 pt-8">
                                                     <div className="flex items-center">
                                                         <div className="w-6 h-6 md:w-8 md:h-8 text-gray-800">
@@ -250,7 +250,7 @@ export default function IndexPage() {
                                                         <p className="text-gray-800 xl:text-base md:text-2xl text-base ml-3">Performance</p>
                                                     </div>
                                                 </li>
-                                            </a>
+                                            </button>
                                             <li className="text-gray-800 pt-8 cursor-pointer">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
