@@ -28,7 +28,7 @@ export default function Hero ()  {
     {/* <div class="absolute inset-0 bg-black opacity-20"></div> */}
 </div>
   
-  <div class="flex flex-row items-center mr-16 mt-12 justify-end  h-full">
+  <div class="flex flex-row items-center mr-8 mt-8 justify-end  h-full">
   <div class="relative z-10 flex flex-col justify-center  items-center h-full ">
   <img  src="/ntmgslogomobile.png" alt="Background " />
 
