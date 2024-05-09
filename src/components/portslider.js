@@ -43,7 +43,7 @@ export default function Index() {
                                             <div className="flex justify-start w-full">
                                                 <p className="text-base leading-4 text-gray-800 mb-2 text-left">Her Closets</p>
                                             </div>
-                                            <img src="/port4.jpg" className="w-full h-full object-center object-cover sm:h-full" />
+                                            <img src="/port4.jpg" alt="model" className="w-full h-full object-center object-cover sm:h-full" />
                                         </div>
                                     </div>
                                 </Slide>
@@ -53,7 +53,7 @@ export default function Index() {
                                             <div className="w-full flex justify-start">
                                                 <p className="text-base leading-4 text-gray-800 mb-2 text-left">Men’s Classisc</p>
                                             </div>
-                                            <img src="/port5.jpg" className="w-full h-full object-center object-cover sm:h-full" />
+                                            <img src="/port5.jpg"  alt="model" className="w-full h-full object-center object-cover sm:h-full" />
                                         </div>
                                     </div>
                                 </Slide>
@@ -63,7 +63,7 @@ export default function Index() {
                                             <div className="w-full flex justify-start">
                                                 <p className="text-base leading-4 text-gray-800 mb-2 text-left">Outdoor Fashion</p>
                                             </div>
-                                            <img src="/port6.jpg" className="w-full h-full object-center object-cover sm:h-full" />
+                                            <img src="/port6.jpg"  alt="model" className="w-full h-full object-center object-cover sm:h-full" />
                                         </div>
                                     </div>
                                 </Slide>
@@ -73,7 +73,7 @@ export default function Index() {
                                             <div className="w-full flex justify-start">
                                                 <p className="text-base leading-4 text-gray-800 mb-2 text-left">Outdoor Fashion</p>
                                             </div>
-                                            <img src="https://i.ibb.co/61CtRHC/pexels-waldir-vora-5944321-1-3.png" className="w-full h-full object-center object-cover sm:h-full" />
+                                            <img src="https://i.ibb.co/61CtRHC/pexels-waldir-vora-5944321-1-3.png"  alt="model" className="w-full h-full object-center object-cover sm:h-full" />
                                         </div>
                                     </div>
                                 </Slide>
@@ -83,7 +83,7 @@ export default function Index() {
                                             <div className="w-full flex justify-start">
                                                 <p className="text-base leading-4 text-gray-800 mb-2 text-left">Outdoor Fashion</p>
                                             </div>
-                                            <img src="https://i.ibb.co/61CtRHC/pexels-waldir-vora-5944321-1-3.png" className="w-full h-full object-center object-cover sm:h-full" />
+                                            <img src="https://i.ibb.co/61CtRHC/pexels-waldir-vora-5944321-1-3.png"  alt="model" className="w-full h-full object-center object-cover sm:h-full" />
                                         </div>
                                     </div>
                                 </Slide>
@@ -93,7 +93,7 @@ export default function Index() {
                                             <div className="w-full flex justify-start">
                                                 <p className="text-base leading-4 text-gray-800 mb-2 text-left">Outdoor Fashion</p>
                                             </div>
-                                            <img src="https://i.ibb.co/61CtRHC/pexels-waldir-vora-5944321-1-3.png" className="w-full h-full object-center object-cover sm:h-full" />
+                                            <img src="https://i.ibb.co/61CtRHC/pexels-waldir-vora-5944321-1-3.png"  alt="model" className="w-full h-full object-center object-cover sm:h-full" />
                                         </div>
                                     </div>
                                 </Slide>

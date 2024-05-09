@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // eslint-disable-next-line
 import "swiper/css/bundle";
 // Import Swiper React components
