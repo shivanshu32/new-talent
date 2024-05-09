@@ -21,7 +21,7 @@ export default function Hero ()  {
 
 
 {/* small screen */}
-<div class="xl:hidden bg-gray-100 mt-8 mb-4 from-gray-100 to-gray-500 h-80 text-white overflow-hidden">
+<div class="xl:hidden bg-gray-100 mt-4 mb-4 from-gray-100 to-gray-500 h-80 text-white overflow-hidden">
 
 <div class="absolute mt-8">
     <img src="/hero2.png" alt="Background " class="object-cover mt-16 w-1/2 h-1/2  object-center" />
