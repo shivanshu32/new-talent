@@ -70,7 +70,7 @@ function index() {
 
           <SwiperSlide className="swiper-slide relative">
 
-            <img src="/slideport1.jpg" alt="accessories" className="lg:block md:hidden hidden" />
+            <img src="/portslide1.jpeg" alt="accessories" className="lg:block md:hidden hidden" />
             <img src="/portslide1.jpeg" alt="accessories" className="lg:hidden md:block hidden" />
             <img src="/portslide1.jpeg" alt="accessories" className="lg:hidden md:hidden block" />
             <div className="absolute left-0 bottom-0 bg-white bg-opacity-50 px-4 pt-4 max-w-[275px] w-full">
@@ -87,8 +87,8 @@ function index() {
           </SwiperSlide>
           <SwiperSlide className="swiper-slide relative">
             <img src="/awardgulshan.jpg" alt="woman" className="lg:block md:hidden hidden" />
-            <img src="/portslide3.jpeg" alt="woman" className="lg:hidden md:block hidden" />
-            <img src="/portslide3.jpeg" alt="woman" className="lg:hidden md:hidden block" />
+            <img src="/awardgulshan.jpg" alt="woman" className="lg:hidden md:block hidden" />
+            <img src="/awardgulshan.jpg" alt="woman" className="lg:hidden md:hidden block" />
             <div className="absolute left-0 bottom-0 bg-white bg-opacity-50 px-4 pt-4  max-w-[293px] w-full">
               <p className="lg:text-4xl md:text-3xl text-3xl font-semibold leading-9 text-center text-gray-800 pb-4">Award by Gulshan Grover & Sangeeta Bijilani</p>
             </div>
