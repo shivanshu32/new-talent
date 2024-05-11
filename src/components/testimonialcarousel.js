@@ -14,7 +14,7 @@ export default function Index() {
                         {/* <p class="text-base leading-6 md:leading-4 text-center text-gray-600">Dive deep into the world of fashion with our lastest blogs updates.</p> */}
         </div>
                 {/* Carousel for Small-Sized Screen */}
-                <CarouselProvider className="relative block sm:hidden" naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={8} visibleSlides={1} step={1} infinite={true}>
+                <CarouselProvider className="relative block sm:hidden" naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={9} visibleSlides={1} step={1} infinite={true}>
                     <div className="js-flickity flex justify-center items-center">
                         <ButtonBack role="button" aria-label="slide backward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
                             <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,36 +26,28 @@ export default function Index() {
                            <Testimonialcard imgs="/test1.jpeg" />
                             </Slide>
                             <Slide index={1}>
-                                <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
-                                    <div className="relative w-full h-full lg:block hidden">
-                                        <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs" className="object-center object-cover w-full h-full" />
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
-                                        </div>
-                                    </div>
-                                    <div className="relative w-full h-full lg:hidden">
-                                        <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs" className="object-center object-cover w-full h-full" />
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
-                                        </div>
-                                    </div>
-                                </div>
+                            <Testimonialcard imgs="/test2.jpeg" />
                             </Slide>
                             <Slide index={2}>
-                                <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
-                                    <div className="relative w-full h-full lg:block hidden">
-                                        <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair" className="object-center object-cover w-full h-full" />
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
-                                        </div>
-                                    </div>
-                                    <div className="relative w-full h-full lg:hidden">
-                                        <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair" className="object-center object-cover w-full h-full" />
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
-                                        </div>
-                                    </div>
-                                </div>
+                            <Testimonialcard imgs="/test3.jpeg" />
+                            </Slide>
+                            <Slide index={3}>
+                            <Testimonialcard imgs="/test4.jpeg" />
+                            </Slide>
+                            <Slide index={4}>
+                            <Testimonialcard imgs="/test5.jpeg" />
+                            </Slide>
+                            <Slide index={5}>
+                            <Testimonialcard imgs="/test6.jpeg" />
+                            </Slide>
+                            <Slide index={6}>
+                            <Testimonialcard imgs="/test7.jpeg" />
+                            </Slide>
+                            <Slide index={7}>
+                            <Testimonialcard imgs="/test8.jpeg" />
+                            </Slide>
+                            <Slide index={8}>
+                            <Testimonialcard imgs="/test9.jpeg" />
                             </Slide>
                         </Slider>
                         <ButtonNext role="button" aria-label="slide forward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 right-0 mr-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" id="next">
