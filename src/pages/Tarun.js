@@ -8,7 +8,8 @@ import Footer1 from '../components/footer'
 import Tr1 from '../components/tr1'
 import Tr2 from '../components/tr2'
 import Tr3 from '../components/tr3'
-import Tr4 from '../components/tr4'
+import Trdesigner from '../components/trdesigner'
+// import Tr4 from '../components/tr4'
 
 export default function Tarun() {
   return (
@@ -18,7 +19,8 @@ export default function Tarun() {
       <Tr1/>
       <Tr2/>
       <Tr3/>
-      <Tr4/>
+      <Trdesigner />
+      {/* <Tr4/> */}
       
      
       <Footer1/>

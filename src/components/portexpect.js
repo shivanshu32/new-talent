@@ -5,11 +5,6 @@ function Index() {
             <div className="container pt-12 h-screen mx-auto">
                 <div className="flex flex-row grid-cols-3 ">
 
-                <div className="md:w-2/5 w-full">
-                    <div className="rounded relative " >
-                        {/* <img src='/portmodel7.png' className=" left-0" alt="model" /> */}
-                        </div>
-                    </div>
                 
                     <div className="w-full pb-6 ">
                         {/* Remove class [ h-24 ] when adding a card block */}
@@ -44,7 +39,7 @@ Since this is an end-to-end service, we select the best shots out of your entire
                         {/* Remove class [ h-24 ] when adding a card block */}
                         {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                         <div className="rounded  " >
-                        <img src='/portmodel1.png'  alt="model" />
+                        <img src='/westmodel5.png' className="object-cover object-center w-full" />
                         </div>
                     </div>
                     

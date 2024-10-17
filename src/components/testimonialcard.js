@@ -6,10 +6,10 @@ export default function IndexPage(props) {
        
         <>
             <div className="mx-auto container dark:bg-gray-900 xl:px-0 px-4 py-16">
-                <div className="w-auto p-2">
+                {/* <div className="w-auto p-2">
                     <div className="w-full grid place-items-center h-48 relative">
                         <img src={props.imgs} className="w-full h-full" alt="cover" />
-                        {/* <button class="absolute inset-0  bg-blue-500 text-white m-16 rounded hover:bg-blue-800 "> */}
+                     
                         <div class="absolute">
                         <svg  width="50px" height="50px" viewBox="0 0 20 20" version="1.1" >
    
@@ -27,18 +27,25 @@ export default function IndexPage(props) {
     </g>
 </svg>
 </div>
-                        {/* </button> */}
+                       
                     </div>
                     
-                    <div className="xl:flex items-start py-5">
+                    
+                    
+                   
+                </div> */}
+
+                <div class="aspect-w-16 aspect-h-9 ml-2">
+  <iframe title="thisframe" src={props.imgs} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div className="xl:flex items-start py-5">
                         <div>
-                            <p className="font-bold xl:text-large text-large text-gray-900 dark:text-gray-100">Lorem Ipsum New Talent Models Grooming School New Delhi</p>
+                            <p className="font-bold sm:text-large text-large text-gray-900 dark:text-gray-100">{props.caps}</p>
                         </div>
                         
                     </div>
-                    
-                   
-                </div>
+
             </div>
         </>
     );

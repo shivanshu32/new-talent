@@ -1,5 +1,23 @@
 import React from "react";
+import './courses.css';
+import { useState } from "react";
+import Dynamiccourse from "./dynamiccourse";
+import Dynamicvideo from "./dynamicvideo";
+import Mobilecourses from './mobilecourses'
+
 function Index() {
+
+    const [hidden1, setHidden1] = useState(true);
+    const [hidden2, setHidden2] = useState(true);
+    const [hidden3, setHidden3] = useState(true);
+
+const callme = () => {
+    alert("mouse enter")
+}
+
+// ("#hideonhover1").on("hover", function(){
+//     alert("hovered")
+// })
     return (
         <>
         <div class="text-center flex flex-col justify-center items-center space-y-4">
@@ -8,59 +26,61 @@ function Index() {
         </div>
 
 
-            <div className="container w-3/5 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 ">
+            <div className="max-sm:hidden container w-3/5 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 ">
                 {/* Remove class [ h-24 ] when adding a card block */}
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
-                <div className="shadow-[rgba(0,0,15,0.5)_10px_0px_0px_0px] ml-2 z-10 bg-gray-100 rounded-t-full border-gray-300 rounded-lg  " >
-                    <div className="w-full h-full mt-4 flex items-center justify-center dark:bg-gray-900">
-                    <img src="/Pageant.png" alt="Background " class="object-cover mt-10 object-center" />
+                <div  onMouseEnter={() => setHidden1(false)} onMouseLeave={() => setHidden1(true)}  >
                 
-                </div>
+                {hidden1 ? <Dynamiccourse imgurl="/Pageant.png" imgtitle="Pageant Training" /> : <Dynamicvideo vidurl="https://www.youtube.com/embed/2FHn9HYTLac?si=zcFY7k3eRbH1Sw2_" /> } 
 
                 </div>
-                {/* Remove class [ h-24 ] when adding a card block */}
-                {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
-                <div className="shadow-[rgba(0,0,15,0.5)_10px_0px_0px_0px] ml-2 z-10 bg-gray-100 rounded-t-full border-gray-300   " >
-                <div className="w-full h-full mt-4 flex items-center justify-center dark:bg-gray-900">
-                <img src="/modelneeraj.png" alt="Background " class="object-cover mt-10 object-center" />
+
+
                 
-                </div>
-                </div>
+
                 {/* Remove class [ h-24 ] when adding a card block */}
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
-              
-              
-                <div className="shadow-[rgba(0,0,15,0.5)_10px_0px_0px_0px] ml-2 z-10  bg-gray-100 rounded-t-full border-gray-300  " > 
-                <div className="w-full h-full mt-4 flex items-center justify-center dark:bg-gray-900">
-                <img src="/Portfolio.png" alt="Background " class="object-cover mt-10 object-center" />
-                </div>
+                <div  onMouseEnter={() => setHidden2(false)} onMouseLeave={() => setHidden2(true)} >
+                
+                {hidden2 ? <Dynamiccourse imgurl="/modelneeraj.png" imgtitle="Model Training" /> : <Dynamicvideo vidurl="https://www.youtube.com/embed/xsQI_4AqSzY?si=vTPZZOATJJEFSHKO" /> } 
+
+
+               
+
                 </div>
 
-                <div className="shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] -mt-40 ml-2 bg-gray-100 rounded border-gray-300   h-80" >
-                <div className="w-full h-full flex items-center justify-center dark:bg-gray-900">
-                <p className="w-2/4 text-4xl font-bold leading-normal text-center text-gray-800 mt-36 dark:text-gray-100">Pageant Training</p>
-                </div>
-                
-                </div>
-                {/* Remove class [ h-24 ] when adding a card block */}
-                {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
-                <div className="shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] -mt-40 ml-2 bg-gray-100 rounded border-gray-300  h-80" >
-                <div className="w-full h-full flex items-center justify-center dark:bg-gray-900">
-                <p className="w-2/4 text-4xl font-bold leading-normal text-center text-gray-800 mt-36 dark:text-gray-100">Model Training</p>
-                </div>
-                
-                </div>
+
+               
                 {/* Remove class [ h-24 ] when adding a card block */}
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
               
               
-                <div className="shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] -mt-40 ml-2 bg-gray-100 rounded border-gray-300   h-80" > 
-                <div className="w-full h-full flex items-center justify-center dark:bg-gray-900">
-                <p className="w-2/4 text-4xl font-bold leading-normal text-center text-gray-800 mt-36 dark:text-gray-100">Portfolio Shoot</p>
-                    </div>
+                <div  onMouseEnter={() => setHidden3(false)} onMouseLeave={() => setHidden3(true)}  > 
+                
+                {hidden3 ? <Dynamiccourse imgurl="/portmodelnew.png" imgtitle="Portfolio Shoot" /> : <Dynamicvideo vidurl="https://www.youtube.com/embed/ThnsDXU9_3w?si=6uZUJUqmBCGB5Xn7" /> } 
+
+                
+
                 </div>
+
+                
+
+                
+
+                {/* Remove class [ h-24 ] when adding a card block */}
+                {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
+               
+                {/* Remove class [ h-24 ] when adding a card block */}
+                {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
+              
+              
+               
 
             </div>
+
+            <Mobilecourses />
+
+
             <br />
         </>
     );

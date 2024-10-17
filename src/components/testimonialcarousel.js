@@ -22,33 +22,32 @@ export default function Index() {
                             </svg>
                         </ButtonBack>
                         <Slider>
-                            <Slide index={0}>
-                           <Testimonialcard imgs="/test1.jpeg" />
+                           
+                        <Slide className="carousel__inner-slideLarge" index={0}>
+                            <Testimonialcard imgs="https://www.youtube.com/embed/J-M4jyCYbcY?si=tmbfAGJ4r2ZHDWif" caps="Maira Singh Rajput shares her experience with NTMGS"  />
                             </Slide>
-                            <Slide index={1}>
-                            <Testimonialcard imgs="/test2.jpeg" />
+                            <Slide className="carousel__inner-slideLarge" index={1}>
+                            <Testimonialcard imgs="https://www.youtube.com/embed/wUzFMtcKY34?si=DHF_5N6yKI6p2bJo" caps="Pradeep Singh Kharera shares his experience with NTMGS"  />
                             </Slide>
-                            <Slide index={2}>
-                            <Testimonialcard imgs="/test3.jpeg" />
+                            <Slide className="carousel__inner-slideLarge" index={2}>
+                            <Testimonialcard imgs="https://www.youtube.com/embed/Y41CidYTdx0?si=5mEUYRnYRHOmLBQ4" caps="Mohit Prajapati shares his experience with NTMGS"  />
                             </Slide>
-                            <Slide index={3}>
-                            <Testimonialcard imgs="/test4.jpeg" />
+                            <Slide className="carousel__inner-slideLarge" index={3}>
+                            <Testimonialcard imgs="https://www.youtube.com/embed/YFjMHiWnSH4?si=ZR-oJ40c9Trf9JKR" caps="Deepak Gehlot from Delhi shares his experience with NTMGS"  />
                             </Slide>
-                            <Slide index={4}>
-                            <Testimonialcard imgs="/test5.jpeg" />
+                            <Slide className="carousel__inner-slideLarge" index={4}>
+                            <Testimonialcard imgs="https://www.youtube.com/embed/9PXn_ub0KKE?si=cdFUJu7QPfPvGzpA" caps="Nitesh shares experience regarding his diploma course expereince with NTMGS"  />
                             </Slide>
-                            <Slide index={5}>
-                            <Testimonialcard imgs="/test6.jpeg" />
+                            <Slide className="carousel__inner-slideLarge" index={5}>
+                            <Testimonialcard imgs="https://www.youtube.com/embed/LshKm_1aFeE?si=23PTvOUHSABCqvhl" caps="Karan Singh shares her experience regarding NTMGS"  />
                             </Slide>
-                            <Slide index={6}>
-                            <Testimonialcard imgs="/test7.jpeg" />
+                            <Slide className="carousel__inner-slideLarge" index={6}>
+                            <Testimonialcard imgs="https://www.youtube.com/embed/X59ramTYk18?si=VWYB-oicErlB-rLN" caps="Vishakha Jaatni shares her experience with NTMGS"  />
                             </Slide>
-                            <Slide index={7}>
-                            <Testimonialcard imgs="/test8.jpeg" />
+                            <Slide className="carousel__inner-slideLarge" index={7}>
+                            <Testimonialcard imgs="https://www.youtube.com/embed/_UbKfcYw5gI?si=RZf_7nH3o-FIWe1c" caps="Shrey shares his portfolio experience with NTMGS"  />
                             </Slide>
-                            <Slide index={8}>
-                            <Testimonialcard imgs="/test9.jpeg" />
-                            </Slide>
+
                         </Slider>
                         <ButtonNext role="button" aria-label="slide forward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 right-0 mr-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" id="next">
                             <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +58,7 @@ export default function Index() {
                 </CarouselProvider>
 
                 {/* Carousel for Medium and Large-Sized Screen */}
-                <CarouselProvider className="relative hidden sm:block" naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={9} visibleSlides={3} step={1} infinite={true} currentSlide={1}>
+                <CarouselProvider className="relative hidden sm:block" naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={8} visibleSlides={3} step={1} infinite={true} currentSlide={1}>
                     <div className="js-flickity flex justify-center items-center">
                         <ButtonBack role="button" aria-label="slide backward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 left-0  focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
                             <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,32 +67,30 @@ export default function Index() {
                         </ButtonBack>
                         <Slider className="carousel__sliderLarge">
                             <Slide className="carousel__inner-slideLarge" index={0}>
-                            <Testimonialcard imgs="/test1.jpeg" />
+                            <Testimonialcard imgs="https://www.youtube.com/embed/J-M4jyCYbcY?si=tmbfAGJ4r2ZHDWif" caps="Maira Singh Rajput shares her experience with NTMGS"  />
                             </Slide>
                             <Slide className="carousel__inner-slideLarge" index={1}>
-                            <Testimonialcard imgs="/test2.jpeg" />
+                            <Testimonialcard imgs="https://www.youtube.com/embed/wUzFMtcKY34?si=DHF_5N6yKI6p2bJo" caps="Pradeep Singh Kharera shares his experience with NTMGS"  />
                             </Slide>
                             <Slide className="carousel__inner-slideLarge" index={2}>
-                            <Testimonialcard imgs="/test3.jpeg" />
+                            <Testimonialcard imgs="https://www.youtube.com/embed/Y41CidYTdx0?si=5mEUYRnYRHOmLBQ4" caps="Mohit Prajapati shares his experience with NTMGS"  />
                             </Slide>
                             <Slide className="carousel__inner-slideLarge" index={3}>
-                            <Testimonialcard imgs="/test4.jpeg" />
+                            <Testimonialcard imgs="https://www.youtube.com/embed/YFjMHiWnSH4?si=ZR-oJ40c9Trf9JKR" caps="Deepak Gehlot from Delhi shares his experience with NTMGS"  />
                             </Slide>
                             <Slide className="carousel__inner-slideLarge" index={4}>
-                            <Testimonialcard imgs="/test5.jpeg" />
+                            <Testimonialcard imgs="https://www.youtube.com/embed/9PXn_ub0KKE?si=cdFUJu7QPfPvGzpA" caps="Nitesh shares experience regarding his diploma course expereince with NTMGS"  />
                             </Slide>
                             <Slide className="carousel__inner-slideLarge" index={5}>
-                            <Testimonialcard imgs="/test6.jpeg" />
+                            <Testimonialcard imgs="https://www.youtube.com/embed/LshKm_1aFeE?si=23PTvOUHSABCqvhl" caps="Karan Singh shares her experience regarding NTMGS"  />
                             </Slide>
                             <Slide className="carousel__inner-slideLarge" index={6}>
-                            <Testimonialcard imgs="/test7.jpeg" />
+                            <Testimonialcard imgs="https://www.youtube.com/embed/X59ramTYk18?si=VWYB-oicErlB-rLN" caps="Vishakha Jaatni shares her experience with NTMGS"  />
                             </Slide>
                             <Slide className="carousel__inner-slideLarge" index={7}>
-                            <Testimonialcard imgs="/test8.jpeg" />
+                            <Testimonialcard imgs="https://www.youtube.com/embed/_UbKfcYw5gI?si=RZf_7nH3o-FIWe1c" caps="Shrey shares his portfolio experience with NTMGS"  />
                             </Slide>
-                            <Slide className="carousel__inner-slideLarge" index={8}>
-                            <Testimonialcard imgs="/test9.jpeg" />
-                            </Slide>
+                            
                         </Slider>
                         <ButtonNext role="button" aria-label="slide forward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 right-0 mr-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" id="next">
                             <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -4,14 +4,14 @@ function Index() {
         <>
        
                         <div className="w-full flex justify-center mt-32">
-                        <h1  className="lg:text-4xl text-3xl font-bold  leading-tight text-gray-800">
+                        <h1  className="lg:text-4xl sm:text-2xl font-bold  leading-tight text-gray-800">
                         WHAT WILL YOU LEARN ?
                         </h1>
                         </div>
             <div className="container pt-6 mx-auto">
                 <div className="flex flex-wrap">
                 
-                    <div className="md:w-2/5 w-full pb-6 justify-end">
+                    <div className="md:w-1/3 w-full pb-6 justify-end">
                         {/* Remove class [ h-24 ] when adding a card block */}
                         {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                         <div className="rounded mt-16 p-8 " >
@@ -46,15 +46,15 @@ function Index() {
 
                         </div>
                     </div>
-                    <div className="md:w-1/5 w-full">
+                    <div className="md:w-1/3 w-full">
                         {/* Remove class [ h-24 ] when adding a card block */}
                         {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                         <div className="rounded  " >
-                        <img src='/modelneeraj.png' className="w-full h-full" alt="model" />
+                        <img src='/westmodel5.png' className="w-full h-full" alt="model" />
                         </div>
                     </div>
-                    <div className="md:w-2/5 w-full flex">
-                    <div className="rounded mt-16 p-8 justify-center" >
+                    <div className="md:w-1/3 w-full flex">
+                    <div className="rounded mt-24 justify-center" >
                         
 
                         
@@ -69,7 +69,7 @@ function Index() {
 
 
 
-                    <h1 class="ml-24 text-2xl bold">  TAILORED PAGEANT TRAINING </h1>
+                    <h1 class="ml-16 text-2xl bold">  TAILORED PAGEANT TRAINING </h1>
 
 
 

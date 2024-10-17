@@ -7,7 +7,7 @@ function Index() {
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                 <div className="rounded  " >
                 <div className="rounded  " >
-                        <img src='/model2.png' className="w-full h-full" alt="model" />
+                        <img src='/westmodel12.png' className="object-cover object-center w-full" alt="model" />
                         </div>
                 </div>
                 {/* Remove class [ h-24 ] when adding a card block */}
@@ -36,7 +36,7 @@ function Index() {
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                 <div className="rounded " >
                 <div className="rounded  " >
-                        <img src='/portmodel5.png' className="w-full h-full" alt="model" />
+                        <img src='/westmodel7.png' className="object-cover object-center w-full" alt="model" />
                         </div>
                 </div>
             </div>

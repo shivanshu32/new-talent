@@ -2,19 +2,19 @@ import React from "react";
 function Index() {
     return (
         <>
-            <div className="container pt-12 h-screen mx-auto">
-                <div className="flex flex-row grid-cols-3 ">
+            <div className="container pt-12 mb-4 h-screen mx-auto">
+                <div className="flex flex-row grid-cols-2 ">
                 <div className=" w-full h-96">
                         {/* Remove class [ h-24 ] when adding a card block */}
                         {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                         <div className="rounded  " >
-                        <img src='/portmodel3.png'  alt="model" />
+                        <img src='/westmodel4.png' className="object-cover object-center w-full" alt="model" />
                         </div>
                     </div>
                     <div className="w-full pb-6 ">
                         {/* Remove class [ h-24 ] when adding a card block */}
                         {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
-                        <div className="rounded mt-16 p-8" >
+                        <div className="rounded mt-32 p-8" >
                         
 <h1  className="lg:text-4xl text-4xl font-bold text-center  leading-tight text-gray-800">
 GUIDED PORTFOLIO SHOOT
@@ -31,11 +31,11 @@ GUIDED PORTFOLIO SHOOT
 
                         </div>
                     </div>
-                    <div className="md:w-2/5 w-full">
+                    {/* <div className="w-full">
                     <div className="rounded relative " >
-                        {/* <img src='/portmodel7.png' className=" left-0" alt="model" /> */}
+                        <img src='/westmodel4.png' className="object-cover object-center w-full" alt="model" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

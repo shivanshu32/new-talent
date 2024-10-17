@@ -5,7 +5,7 @@ function Index() {
             <div className="container mt-32 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8">
                 {/* Remove class [ h-24 ] when adding a card block */}
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
-                <div className="rounded  " >
+                <div className="rounded mt-12  " >
                 <div className="rounded  " >
                         <img src='/model5.png' className="w-full h-full" alt="model" />
                         </div>
@@ -23,8 +23,7 @@ function Index() {
                                                 
                         
                                               <p className="text-2xl font-bold mt-16">  How many pictures and what type of pictures will I get? </p>
-                        
-                                               <p className="mt-8   text-xl text-justify">
+                                               <p className="mt-2 text-xl text-justify">
                                                You'll receive 12 edited photos in all, with three fashion looks and one simple look- 
                                                </p>
                                                <ul className="list-decimal mt-8 ml-16">
@@ -49,8 +48,8 @@ function Index() {
                 {/* Remove class [ h-24 ] when adding a card block */}
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                 <div className="rounded " >
-                <div className="rounded  " >
-                        <img src='/model3.png' className="w-full h-full" alt="model" />
+                <div className="rounded mt-12" >
+                        <img src='/westmodel13.png' className="w-full h-full" alt="model" />
                         </div>
                 </div>
             </div>

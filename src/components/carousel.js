@@ -41,7 +41,7 @@ export default function Index() {
                                 <div id="slider" className="h-full flex lg:gap-2 md:gap-2 gap-14 items-center justify-start transition ease-out duration-700">
                                     <Slide index={0}>
                                     <div className="block flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/pic2.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                            <img src="/pic11.png" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                             <img src="/pic1.jpg" alt="sitting area" className="object-cover object-center w-full" />
                                         </div>
                                     </Slide>
@@ -59,32 +59,32 @@ export default function Index() {
                                     </Slide>
                                     <Slide index={3}>
                                     <div className="block flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/pic7.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
-                                            <img src="/pic8.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <img src="/pic7.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                            <img src="/pic8.JPG" alt="sitting area" className="object-cover object-center w-full" />
                                         </div>
                                     </Slide>
                                     <Slide index={4}>
                                     <div className="block flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/pic9.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
-                                            <img src="/pic10.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <img src="/pic9.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                            <img src="/pic10.JPG" alt="sitting area" className="object-cover object-center w-full" />
                                         </div>
                                     </Slide>
                                     <Slide index={5}>
                                     <div className="block flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/pic11.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
-                                            <img src="/pic12.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <img src="/pic11.png" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                            <img src="/pic12.JPG" alt="sitting area" className="object-cover object-center w-full" />
                                         </div>
                                     </Slide>
                                     <Slide index={6}>
                                     <div className="block flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/pic13.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
-                                            <img src="/pic14.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <img src="/pic13.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                            <img src="/pic14.JPG" alt="sitting area" className="object-cover object-center w-full" />
                                         </div>
                                     </Slide>
                                     <Slide index={7}>
                                     <div className="block flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/pic15.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
-                                            <img src="/pic16.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <img src="/pic15.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                            <img src="/pic16.JPG" alt="sitting area" className="object-cover object-center w-full" />
                                         </div>
                                     </Slide>
                                    
@@ -130,37 +130,37 @@ export default function Index() {
                                     </Slide>
                                     <Slide index={3}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic7.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic7.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         {/* <img src="/pic8.jpg" alt="sitting area" className="object-cover object-center w-full" /> */}
                                         </div>
                                     </Slide>
                                     <Slide index={4}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic9.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic9.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         {/* <img src="/pic10.jpg" alt="sitting area" className="object-cover object-center w-full" /> */}
                                         </div>
                                     </Slide>
                                     <Slide index={5}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic11.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic11.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         {/* <img src="/pic12.jpg" alt="sitting area" className="object-cover object-center w-full" /> */}
                                         </div>
                                     </Slide>
                                     <Slide index={6}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic13.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic13.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         {/* <img src="/pic14.jpg" alt="sitting area" className="object-cover object-center w-full" /> */}
                                         </div>
                                     </Slide>
                                     <Slide index={7}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic15.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic15.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         {/* <img src="/pic16.jpg" alt="sitting area" className="object-cover object-center w-full" /> */}
                                         </div>
                                     </Slide>
                                     <Slide index={8}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic1.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic1.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         {/* <img src="/pic16.jpg" alt="sitting area" className="object-cover object-center w-full" /> */}
                                         </div>
                                     </Slide>
@@ -178,31 +178,31 @@ export default function Index() {
                                     </Slide>
                                     <Slide index={11}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic8.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic8.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         {/* <img src="/pic16.jpg" alt="sitting area" className="object-cover object-center w-full" /> */}
                                         </div>
                                     </Slide>
                                     <Slide index={12}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic10.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic10.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         {/* <img src="/pic16.jpg" alt="sitting area" className="object-cover object-center w-full" /> */}
                                         </div>
                                     </Slide>
                                     <Slide index={13}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic12.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic12.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         {/* <img src="/pic16.jpg" alt="sitting area" className="object-cover object-center w-full" /> */}
                                         </div>
                                     </Slide>
                                     <Slide index={14}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic14.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic14.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         {/* <img src="/pic16.jpg" alt="sitting area" className="object-cover object-center w-full" /> */}
                                         </div>
                                     </Slide>
                                     <Slide index={15}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic16.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic16.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         {/* <img src="/pic16.jpg" alt="sitting area" className="object-cover object-center w-full" /> */}
                                         </div>
                                     </Slide>
@@ -263,32 +263,32 @@ export default function Index() {
                                     </Slide>
                                     <Slide index={6}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic7.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic7.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         </div>
                                     </Slide>
                                     <Slide index={7}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic8.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic8.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         </div>
                                     </Slide>
                                     <Slide index={8}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic9.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic9.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         </div>
                                     </Slide>
                                     <Slide index={9}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic10.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic10.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         </div>
                                     </Slide>
                                     <Slide index={10}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic11.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic13.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         </div>
                                     </Slide>
                                     <Slide index={11}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/pic12.jpg" alt="sitting area" className="object-cover object-center w-full pb-2" />
+                                        <img src="/pic12.JPG" alt="sitting area" className="object-cover object-center w-full pb-2" />
                                         </div>
                                     </Slide>
                                 </div>

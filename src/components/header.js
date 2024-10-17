@@ -96,7 +96,9 @@ export default function IndexPage() {
                             </div>
                             <div className="flex w-full sm:w-auto items-center sm:items-stretch justify-end sm:justify-start">
                                 <div className="flex items-center">
+                                <Link to="/"  className="cursor-pointer">
                                 <img  className="h-16" src="/newtalentlogo.png" alt="logo" />
+                                </Link>
                                     {/* <svg aria-label="Home" id="logo" enableBackground="new 0 0 300 300" height={44} viewBox="0 0 300 300" width={43} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <g>
                                             <path
@@ -194,7 +196,17 @@ export default function IndexPage() {
                                             </div>
                                         </div>
 
-
+                                    <Link to="/register"  className="flex px-5 items-center py-6 text-sm leading-5 text-white hover:bg-gray-800 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out">
+                                        {/* <span className="mr-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-code" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" />
+                                                <polyline points="7 8 3 12 7 16" />
+                                                <polyline points="17 8 21 12 17 16" />
+                                                <line x1={14} y1={4} x2={10} y2={20} />
+                                            </svg>
+                                        </span> */}
+                                        Enroll Now
+                                    </Link>
                                 
                                     <Link to="/contact"  className="flex px-5 items-center py-6 text-sm leading-5 text-white hover:bg-gray-800 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out">
                                         {/* <span className="mr-2">
@@ -251,7 +263,9 @@ export default function IndexPage() {
                                         <div className="mt-6 flex w-full items-center justify-between">
                                             <div className="flex items-center justify-between w-full">
                                                 <div className="flex items-center">
+                                                <Link to="/"  className="cursor-pointer">
                                                 <img  className="h-16" src="/newtalentlogo.png" alt="logo" />
+                                                </Link>
                                                     {/* <p className="text-base md:text-2xl text-gray-800 ml-3">The North</p> */}
                                                 </div>
                                                 <div id="cross" className="text-gray-800" onClick={() => setShow(!show)}>
@@ -270,7 +284,7 @@ export default function IndexPage() {
                                                         {/* <div className="w-6 h-6 md:w-8 md:h-8 text-indigo-700">
                                                           
                                                         </div> */}
-                                                        <p className="text-white xl:text-base text-base ml-3">Home</p>
+                                                        <p className="sans text-white xl:text-base text-base ml-3">Home</p>
                                                     </div>
                                                 </li>
                                             </Link>
@@ -347,6 +361,23 @@ export default function IndexPage() {
                                             </div>
                                         </div>
                                             </li>
+                                            <Link to="/register"  className="cursor-pointer">
+                                            <li className="text-gray-800 pt-8 cursor-pointer">
+                                                <div className="flex items-center justify-between">
+                                                    <div className="flex items-center">
+                                                        {/* <div className="w-6 h-6 md:w-8 md:h-8 text-gray-800">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-code" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                                <path stroke="none" d="M0 0h24v24H0z" />
+                                                                <polyline points="7 8 3 12 7 16" />
+                                                                <polyline points="17 8 21 12 17 16" />
+                                                                <line x1={14} y1={4} x2={10} y2={20} />
+                                                            </svg>
+                                                        </div> */}
+                                                        <p className="text-white xl:text-base md:text-2xl text-base ml-3">Enroll Now</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            </Link>
                                             <Link to="/contact"  className="cursor-pointer">
                                             <li className="text-gray-800 pt-8 cursor-pointer">
                                                 <div className="flex items-center justify-between">

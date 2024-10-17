@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function MyApp() {
     const [show, setShow] = useState(false);
     return (
-        <div className="bg-gradient-to-b from-purple-600 to-indigo-700 h-[120vh] w-full">
+        <div className="bg-gradient-to-b from-purple-600 to-indigo-700 h-[120vh] mb-16 w-full">
             <div className="md:px-20 px-4 py-8">
                 <div className="flex items-center justify-between">
                     

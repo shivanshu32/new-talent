@@ -78,17 +78,17 @@ function index() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide relative">
-            <img src="/slideport2.jpg" alt="man and woman" className="lg:block md:hidden hidden" />
-            <img src="/portslide2.jpeg" alt="man and woman" className="lg:hidden md:block hidden" />
-            <img src="/portslide2.jpeg" alt="men and woman" className="lg:hidden md:hidden block" />
+            <img src="/slideport2.png" alt="man and woman" className="lg:block md:hidden hidden" />
+            <img src="/slideport2.png" alt="man and woman" className="lg:hidden md:block hidden" />
+            <img src="/slideport2.png" alt="men and woman" className="lg:hidden md:hidden block" />
             <div className="absolute left-0 bottom-0 bg-white bg-opacity-50 px-4 pt-4 max-w-[267px] w-full">
               <p className="lg:text-4xl md:text-3xl text-3xl font-semibold leading-9 text-center text-gray-800 pb-4">Tarun Rajput Founder NTMGS</p>
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide relative">
-            <img src="/awardgulshan.jpg" alt="woman" className="lg:block md:hidden hidden" />
-            <img src="/awardgulshan.jpg" alt="woman" className="lg:hidden md:block hidden" />
-            <img src="/awardgulshan.jpg" alt="woman" className="lg:hidden md:hidden block" />
+            <img src="/awardgulshan.png" alt="woman" className="lg:block md:hidden hidden" />
+            <img src="/awardgulshan.png" alt="woman" className="lg:hidden md:block hidden" />
+            <img src="/awardgulshan.png" alt="woman" className="lg:hidden md:hidden block" />
             <div className="absolute left-0 bottom-0 bg-white bg-opacity-50 px-4 pt-4  max-w-[293px] w-full">
               <p className="lg:text-4xl md:text-3xl text-3xl font-semibold leading-9 text-center text-gray-800 pb-4">Award by Gulshan Grover & Sangeeta Bijilani</p>
             </div>
